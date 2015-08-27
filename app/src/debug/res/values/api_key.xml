@@ -1,0 +1,4 @@
+<resources>
+    <string name="google_maps_key"><!-- your google maps api key here--></string>
+    <string name="ipinfo_key"><!-- your IPInfoDB api key here--></string>
+</resources>

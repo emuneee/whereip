@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Where IP</string>
+    <string name="title_activity_map">Where IP</string>
+    <string name="hint_ip_address_start">Starting IP Address</string>
+    <string name="hint_ip_address_end">Ending IP Address (Optional)</string>
+    <string name="title_dialog_search_ip">Enter an IP address (or range)</string>
+    <string name="button_find">Find</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="error_invalid_ip_address">Invalid IP Address</string>
+    <string name="error_google_play_services_needed">Google Play services required, but not found</string>
+    <string name="status_finished_more_than_one">Completed locating IPs, multiple IPs may share the same location</string>
+    <string name="dialog_processing_title">Locating IP(s)</string>
+    <string name="dialog_processing_message">Please wait&#8230;</string>
+</resources>

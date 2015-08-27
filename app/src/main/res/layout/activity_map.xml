@@ -1,0 +1,28 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/map"
+              tools:context=".MapActivity"
+              android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/locate_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_search"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="26dp"
+        app:fabSize="normal"
+        app:backgroundTint="#ffc107"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"/>
+
+</FrameLayout>
